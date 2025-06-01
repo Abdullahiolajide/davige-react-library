@@ -11,9 +11,9 @@ import NavbarButtons from './NavbarButtons';
 const NavbarContainer = ({children}) => {
   return (
    
-    <section className={`flex  py-2 md:py-2 md:px-6 px-3 justify-between`}>
+    <section className={`py-2 md:py-2 md:px-6 px-3`}>
         {/* <section className={`duration-300 ${show ? '-translate-x-[100%]' : "translate-x-0"}`}> */}
-        <div className='flex whitespace-nowrap items-center justify-between w-full'>
+        <div className='flex whitespace-nowrap items-center w-full'>
             {children}
             </div>
                 
